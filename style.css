@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(
+        rgba(97,47,18,0.7),
+        rgba(97,47,18,0.7)
+    ),
+    url("coffee.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar{
+    height: 10%;
+    display: flex;
+}
+
+.nav-left{
+    flex-basis: 30%;
+    background: white;
+    position: relative;
+}
+
+.nav-icon{
+    left: 20%;
+    top: 10%;
+    position: absolute;
+}
+
+.nav-icon ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.nav-icon ul li i{
+    color: tomato;
+    font-size: 25px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.nav-right{
+    flex-basis: 70%;
+    position: relative;
+}
+
+.nav-menu{
+    top: 20%;
+    right: 2%;
+    position: absolute;
+}
+
+.nav-menu ul li{
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.nav-menu ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+}
+
+.nav-menu ul li a:hover{
+    border-bottom: 1px solid white;
+    padding-bottom: 5px;
+}
+
+.logo{
+    font-family: 'Pacifico', cursive !important;
+    font-size: 35px;
+}
+
+.content{
+    height: 90%;
+    display: flex;
+}
+
+.content-left{
+    flex-basis: 30%;
+    background: white;
+    position: relative;
+}
+
+.socialmedia{
+    bottom: 5%;
+    left: 10%;
+    position: absolute;
+}
+
+.socialmedia ul li{
+    list-style: none;
+    height: 30px;
+    width: 30px;
+    margin: 10px;
+    background: gray;
+    text-align: center;
+    line-height: 30px;
+}
+
+.socialmedia ul li i{
+    color: white;
+}
+
+.socialmedia ul li i:hover{
+    color: brown;
+}
+
+.content-right{
+    flex-basis: 70%;
+    position: relative;
+}
+
+.text{
+    right: 10%;
+    bottom: 15%;
+    position: absolute;
+}
+
+.text h1{
+    color: white;
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+}
+
+.text p{
+    color: white;
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px;
+}
+
+.display{
+    left: -27%;
+    bottom: 2%;
+    position: relative;
+}
+
+.display img{
+    height: 50%;
+    width: 50%;
+}
